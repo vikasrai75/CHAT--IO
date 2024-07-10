@@ -1,0 +1,22 @@
+table_UserCred 
+
+email   #pk
+created_at
+password
+username
+
+
+
+table_Users
+
+sndr_mail  #pk fk->cascade->table_Usercred.email
+recv_mail #pk fk->cascade->table_Usercred.email
+id  #unique
+
+
+table_UsrMsg
+
+created_at
+chat_id fk->cascade->table_Users.id
+msg 
+id  #pk

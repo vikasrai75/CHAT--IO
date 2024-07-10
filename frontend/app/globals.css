@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+@layer base {
+    html {
+        @apply w-full h-full;
+    }
+    body {
+        @apply w-full h-full flex flex-col;
+    }
+}
+
+@layer utilities {
+    .scroll_thin::-webkit-scrollbar{
+        width: 5px;
+        background-color: transparent;
+        scroll-behavior: smooth;
+    }
+    .scroll_thin::-webkit-scrollbar-thumb{
+        background-color: rgb(146, 128, 128);
+        border-radius: 5px;
+    }
+}
