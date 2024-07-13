@@ -125,7 +125,6 @@ export async function loginUser(req : Request,res : Response){
 export function chat(ws : WebSocket){
     ws.on("message",(data)=>{
         const msg : Message = JSON.parse(data.toString());
-        console.log("a message is arrived ",msg);
     
         if(msg.type == "join"){
             rs.subscribe(msg.sender_email,msg.reciever_email,msg.id,ws);

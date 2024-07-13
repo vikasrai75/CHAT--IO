@@ -16,10 +16,11 @@ export default async function Page(){
                     Oc-chat made to scaled on large servers.
                 </p>
                 <p className="text-lg lg:text-xl  font-robo font-semibold text-gray-500 text-justify pt-6">
-                    A simple chat application that can easily be scaled it used redis and bullmq so it can be 
-                    easily can be worked on any platform or distrubuted system. In this app auth 2.0 is also 
-                    implemented so necessary security measurements. Take a test drive you just have to sign up 
-                    and personalize this app so you can enjoy it well just you have to select personlize it. 
+                    Discover the new way to connect effortlessly with friends and loved ones through our innovative
+                    chat application. With sleek design and intuitive features, staying in touch has never been easier.
+                    Share moments, express yourself with emojis, and enjoy seamless conversations anytime, anywhere.
+                    Join thousands who have already embraced the future of messaging. Download our app today and start
+                    chatting in a whole new way!
                 </p>
                 <div>
                     <Link href="/chatapp/Signup/" className="px-4 mt-6 rounded-full py-2 text-center inline-block font-bold bg-blue-600 text-white hover:bg-blue-400">
